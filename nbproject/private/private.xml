@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project-private xmlns="http://www.netbeans.org/ns/project-private/1">
+    <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
+    <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
+        <group>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/voiceReader.py</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/SkillsModificationController.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/JobTopia.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/ServiceSkills.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ClientHomeCandidatureFXML.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/SkillsController.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/IService.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Entities/EtatEnum.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/HomeCandidatureFXML.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ModificationCandidatureFXMLController.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/InterfaceMain.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/ServiceCandidature.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ClientHomeCandidatureFXMLController.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ClientModificationCandidatureFXML.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ClientModificationCandidatureFXMLController.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ModificationCandidatureFXMLController.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/ModificationCandidatureFXML.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Entities/Candidature.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/IServiceSkills.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/Scoring.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/salma.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Utils/MyDB.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/SkillsFXML.fxml</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Services/resumeScoring.py</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/Entities/Skills.java</file>
+            <file>file:/C:/Users/HP/Documents/myfuckingfiles/esprit/PI_DEV/JobTopia/src/jobtopia/GUI/HomeCandidatureFXMLController.java</file>
+        </group>
+    </open-files>
+</project-private>

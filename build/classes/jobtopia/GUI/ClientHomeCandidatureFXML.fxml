@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.String?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<VBox prefHeight="829.0" prefWidth="1243.0" stylesheets="@styles.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="jobtopia.GUI.ClientHomeCandidatureFXMLController">
+   <children>
+      <AnchorPane maxHeight="-1.0" maxWidth="-1.0" prefHeight="816.0" prefWidth="1258.0" VBox.vgrow="ALWAYS">
+         <children>
+            <TabPane prefHeight="829.0" prefWidth="1263.0" styleClass="Form_container" tabClosingPolicy="UNAVAILABLE">
+               <tabs>
+                  <Tab fx:id="tab1" text="Candidature">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="570.0" prefWidth="885.0" styleClass="Form_container">
+                           <children>
+                              <ImageView fitHeight="334.0" fitWidth="1263.0" layoutX="-2.0" layoutY="468.0" opacity="0.55" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Assets/sigma-1/14-dark.png" />
+                                 </image>
+                              </ImageView>
+                              <Label layoutX="383.0" layoutY="277.0" prefHeight="43.0" prefWidth="211.0" text="Etat de candidature">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="383.0" layoutY="332.0" prefHeight="17.0" prefWidth="182.0" text="Offre">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <Label layoutX="383.0" layoutY="384.0" prefHeight="17.0" prefWidth="212.0" text="Freelancer">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Label>
+                              <TextField id="offID" fx:id="offID" layoutX="608.0" layoutY="335.0" prefHeight="37.0" prefWidth="268.0" styleClass="TextField" />
+                              <TextField id="freeID" fx:id="freeID" layoutX="608.0" layoutY="387.0" prefHeight="39.0" prefWidth="265.0" styleClass="TextField" />
+                              <Button id="add" layoutX="551.0" layoutY="475.0" mnemonicParsing="false" onAction="#ajouter" prefHeight="44.0" prefWidth="211.0" styleClass="Button" text="Confirmation">
+                                 <font>
+                                    <Font size="20.0" />
+                                 </font>
+                              </Button>
+                              <ComboBox fx:id="etatChoice" layoutX="608.0" layoutY="286.0" prefHeight="36.0" prefWidth="268.0">
+                                 <styleClass>
+                                    <String fx:value="check-box" />
+                                    <String fx:value="CheckBox_Container" />
+                                    <String fx:value="box" />
+                                 </styleClass></ComboBox>
+                              <ImageView fitHeight="180.0" fitWidth="328.0" layoutX="431.0" layoutY="41.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Assets/Topiav1.png" />
+                                 </image>
+                              </ImageView>
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+                  <Tab fx:id="tab2" text="Liste des candidatures">
+                     <content>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="791.0" prefWidth="1270.0">
+                           <children>
+                              <ImageView fitHeight="314.0" fitWidth="1569.0" layoutX="-3.0" layoutY="58.0" opacity="0.35" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Assets/unitedpalms-1/14-dark.png" />
+                                 </image></ImageView>
+                              <Button layoutX="14.0" layoutY="14.0" mnemonicParsing="false" onAction="#afficher" styleClass="Button" text="Actualiser la liste" />
+                              <TableView fx:id="Candidtable" layoutX="1.0" layoutY="316.0" prefHeight="473.0" prefWidth="1257.0" styleClass="Form_container">
+                                 <columns>
+                                    <TableColumn fx:id="showID" prefWidth="47.0" text="ID" />
+                                    <TableColumn fx:id="showoffreTitle" prefWidth="78.0" text="Offre" />
+                                    <TableColumn fx:id="showoffreDescription" prefWidth="191.0" text="Description de l'offre" />
+                                    <TableColumn fx:id="showfreelancerName" minWidth="4.0" prefWidth="136.0" text="Nom du Freelancer" />
+                                    <TableColumn fx:id="showfreelancerLName" prefWidth="133.0" text="Prenom du Freelancer" />
+                                    <TableColumn fx:id="showfreelancerEmail" prefWidth="173.0" text="Email du Freelancer" />
+                                    <TableColumn fx:id="showfreelancerProfession" prefWidth="110.0" text="Profession" />
+                                    <TableColumn fx:id="etatcol" prefWidth="120.0" text="Etat de candidature" />
+                                    <TableColumn fx:id="modifierCol" prefWidth="103.0" text="Modifier" />
+                                    <TableColumn fx:id="supprimerCol" prefWidth="72.0" text="Supprimer" />
+                                    <TableColumn fx:id="archiveCol" prefWidth="103.0" text="Archiver" />
+                                 </columns>
+                              </TableView>
+                              <ImageView fitHeight="180.0" fitWidth="328.0" layoutX="433.0" layoutY="58.0" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Assets/Topiav1.png" />
+                                 </image>
+                              </ImageView>
+                              <ImageView accessibleRole="BUTTON" fitHeight="34.0" fitWidth="29.0" layoutX="888.0" layoutY="28.0" onKeyPressed="#afficher" pickOnBounds="true" preserveRatio="true">
+                                 <image>
+                                    <Image url="@Assets/Icons/search.png" />
+                                 </image>
+                                 <cursor>
+                                    <Cursor fx:constant="HAND" />
+                                 </cursor>
+                              </ImageView>
+                              <TextField fx:id="search" layoutX="929.0" layoutY="29.0" prefHeight="25.0" prefWidth="240.0" promptText="Recherche " styleClass="TextField" />
+                           </children>
+                        </AnchorPane>
+                     </content>
+                  </Tab>
+               </tabs>
+            </TabPane>
+         </children>
+      </AnchorPane>
+   </children>
+</VBox>
